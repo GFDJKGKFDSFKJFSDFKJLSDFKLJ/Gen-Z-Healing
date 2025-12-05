@@ -1,14 +1,13 @@
-/* === GLOBAL FONT === */
 body {
     font-family: "Lato", sans-serif;
-    background-color: #EAE3DC; /* Be nhạt */
-    color: #8C6B50; /* Tông nâu gỗ dễ đọc */
+    background-color: #EAE3DC; 
+    color: #8C6B50; 
 }
 
 h2 {
-    color: #41362e !important; /* NEW — makes titles readable */}
+    color: #41362e !important;}
 
-/* === NAVBAR CUSTOM === */
+
 .w3-bar {
     background-color: #8C6B50 !important;
 }
@@ -22,7 +21,6 @@ h2 {
     color: #F5F0EC !important;
 }
 
-/* Dropdown */
 .w3-dropdown-content {
     background-color: #41362e;
 }
@@ -31,7 +29,7 @@ h2 {
 }
 
 
-/* === HERO SLIDES === */
+
 .mySlides {
     display: none;
 }
@@ -50,29 +48,29 @@ h2 {
 }
 
 
-/* === PRIMARY THEME COLOR FOR BUTTONS === */
+
 .w3-teal, .w3-hover-teal:hover {
-    background-color: #7EA6A1 !important; /* Xanh dịu accent */
+    background-color: #7EA6A1 !important; 
     color: white !important;
 }
 
 
-/* === SECTION HEADERS === */
+
 h2.w3-wide {
     color: #8C6B50;
     letter-spacing: 2px;
 }
 
 
-/* === ABOUT IMAGES === */
+
 .w3-round {
     border-radius: 12px;
 }
 
 
-/* === CARD / LIST === */
+
 .w3-container.w3-white {
-    background-color: #F5F0EC; /* Kem */
+    background-color: #F5F0EC; 
     border: 1px solid #B59C87;
     border-radius: 10px;
 }
@@ -81,20 +79,20 @@ h2.w3-wide {
     border-bottom: 1px solid #B59C87;
 }
 
-/* Tag / Badge */
+
 .w3-tag, .w3-badge {
     background-color: #8C6B50 !important;
     color: #F5F0EC !important;
 }
 
 
-/* === BOOKING BUTTONS === */
+
 .w3-black {
-    background-color: #7EA6A1 !important; /* chuyển sang xanh dịu */
+    background-color: #7EA6A1 !important; 
 }
 
 
-/* === CONTACT FORM === */
+
 .w3-input {
     border: 1px solid #B59C87 !important;
     background-color: #F5F0EC;
@@ -104,14 +102,10 @@ h2.w3-wide {
     border-color: #8C6B50 !important;
 }
 
-
-/* === GREYSCALE MAP === */
 .w3-greyscale-min {
     filter: grayscale(30%);
 }
 
-
-/* === FOOTER === */
 footer {
     background-color: #8C6B50 !important;
     color: #F5F0EC;
@@ -125,10 +119,9 @@ footer i:hover {
     color: #F5F0EC !important;
 }
 
-
-/* === RESPONSIVE SPACING === */
 @media (max-width: 768px) {
     .w3-content {
         padding: 0 10px;
     }
 }
+
